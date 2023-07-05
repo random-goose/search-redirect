@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-image: url("https://i.imgur.com/sM4guw3.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 400px;
+    max-height: 40px;
+    background: rgba(210, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    padding: 10px 20px;
+    backdrop-filter: blur(2px);
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+.search-bar button img{
+    border: 1;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+}
+.search-bar button{
+    width: 32px;
+    height: 32px;
+    border: 1;
+    border-radius: 50%;
+}
